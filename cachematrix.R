@@ -1,7 +1,7 @@
 ## The is my solution to Programming Assignment 2.
 
 ## The pair of function here will attempt to
-## reterive a previous cached inveresed matrix or
+## retrieve a previous cached inverse matrix or
 ## calculate the inverse matrix if the cached is
 ## not available.
 
@@ -52,7 +52,7 @@ makeCacheMatrix <- function(original_matrix = matrix()) {
 
 cacheSolve <- function(original_matrix = matrix()) {
         
-        ## Attempt to retrieve pervious cached of the inverse matrix
+        ## Attempt to retrieve previous cached of the inverse matrix
         cached_matrix <- original_matrix$getInverse()
         
         ## If cached is found, return it.
